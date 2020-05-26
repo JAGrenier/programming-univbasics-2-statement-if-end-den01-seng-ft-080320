@@ -1,8 +1,7 @@
-chance_of_rain = 0.9
-if chance_of_rain <= 0.25
-  puts "Pack a sun shelter!"
-elsif (chance_of_rain > 0.25 && chance_of_rain < 0.75)
-  puts "Pack an umbrella!"
+current_time = Time.now
+current_time= current_time.to_i
+if current_time
+  puts "Even!"
 else
-  puts "Stay home and read Hegel."
+  puts "0dd!"
 end
